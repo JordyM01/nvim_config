@@ -1,0 +1,55 @@
+Plugin Installed
+    ✓ astro-language-server astro
+    ✓ basedpyright
+    ✓ clangd
+    ✓ codelldb
+    ✓ css-lsp cssls
+    ✓ debugpy
+    ✓ delve
+    ✓ docker-compose-language-service docker_compose_language_service
+    ✓ dockerfile-language-server dockerls
+    ✓ emmet-ls emmet_ls
+    ✓ eslint-lsp eslint
+    ✓ goimports
+    ✓ gomodifytags
+    ✓ gopls
+    ✓ gotests
+    ✓ hadolint
+    ✓ html-lsp html
+    ✓ iferr
+    ✓ impl
+    ✓ js-debug-adapter
+    ✓ json-lsp jsonls
+    ✓ lua-language-server lua_ls
+    ✓ prettier
+    ✓ prettierd
+    ✓ rust-analyzer rust_analyzer
+    ✓ selene
+    ✓ sqlfmt
+    ✓ stylua
+    ✓ tailwindcss-language-server tailwindcss
+    ✓ taplo
+    ✓ vtsls
+    ✓ yaml-language-server yamlls
+
+Copilot config
+
+path config: /home/jordym01/.local/share/nvim/lazy/copilot.lua/lua/copilot/config.lua
+
+config:    
+  ---@class copilot_config_suggestion
+  suggestion = {
+    enabled = true,
+    auto_trigger = false,
+    hide_during_completion = true,
+    debounce = 15,
+    ---@type table<'accept'|'accept_word'|'accept_line'|'next'|'prev'|'dismiss', false|string>
+    keymap = {
+      accept = "<C-a>",
+      accept_word = false,
+      accept_line = false,
+      next = "<C-n>",
+      prev = "<C-p>",
+      dismiss = "<C-y>",
+    },
+  },

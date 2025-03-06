@@ -19,6 +19,6 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.tailwindcss"},
   { import = "astrocommunity.color.ccc-nvim" },
-  { import = "astrocommunity.completion.copilot-lua" },
+  -- { import = "astrocommunity.completion.copilot-lua" },
   -- import/override with your plugins folder
 }
