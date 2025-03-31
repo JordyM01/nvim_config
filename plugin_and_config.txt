@@ -1,11 +1,11 @@
-Plugin Installed
-    ✓ astro-language-server astro
+  Installed
     ✓ basedpyright
+    ✓ delve
+    ✓ astro-language-server astro
     ✓ clangd
     ✓ codelldb
     ✓ css-lsp cssls
     ✓ debugpy
-    ✓ delve
     ✓ docker-compose-language-service docker_compose_language_service
     ✓ dockerfile-language-server dockerls
     ✓ emmet-ls emmet_ls
@@ -23,9 +23,10 @@ Plugin Installed
     ✓ lua-language-server lua_ls
     ✓ prettier
     ✓ prettierd
+    ✓ python-lsp-server pylsp
     ✓ rust-analyzer rust_analyzer
     ✓ selene
-    ✓ sqlfmt
+    ✓ sql-formatter
     ✓ stylua
     ✓ tailwindcss-language-server tailwindcss
     ✓ taplo
